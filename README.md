@@ -24,6 +24,22 @@ Your memories are stored locally in an SQLite database, giving you control over 
 
 ---
 
+## 📸 Application Screenshots
+
+### Dashboard
+
+![EchoVault Dashboard](screenshots/dashboard.png)
+
+### Memory Vault
+
+![EchoVault Memory Vault](screenshots/memory-vault.png)
+
+### Ghost Chat
+
+![EchoVault Ghost Chat](screenshots/ghost-chat.png)
+
+---
+
 ## 🖥️ Technology Stack
 
 | Layer | Technology |
@@ -109,7 +125,6 @@ EchoVault follows a local-first approach.
 EchoVault/
 │
 ├── Backend/
-│   ├── venv/
 │   ├── main.py
 │   ├── database.py
 │   └── requirements.txt
@@ -127,8 +142,17 @@ EchoVault/
 │   ├── package.json
 │   └── vite.config.js
 │
+├── screenshots/
+│   ├── dashboard.png
+│   ├── memory-vault.png
+│   └── ghost-chat.png
+│
+├── .gitignore
+├── LICENSE
 └── README.md
 ```
+
+**Note:** The local virtual environment, installed frontend dependencies, and personal SQLite database are excluded from version control.
 
 ---
 
@@ -145,7 +169,7 @@ Install the following:
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/darshan2006-coder/EchoVault.git
 cd EchoVault
 ```
 
@@ -201,15 +225,15 @@ uvicorn main:app --reload
 
 Backend API:
 
-`http://localhost:8000`
+http://localhost:8000
 
 Interactive API documentation:
 
-`http://localhost:8000/docs`
+http://localhost:8000/docs
 
 ### 4. Set Up the Frontend
 
-Open another terminal:
+Open another terminal from the project root:
 
 ```bash
 cd Frontend
@@ -229,7 +253,7 @@ npm run dev
 
 Open the application:
 
-`http://localhost:5173`
+http://localhost:5173
 
 ---
 
@@ -274,7 +298,6 @@ If you would like to improve EchoVault, feel free to fork the repository and sub
 
 ---
 
-
 ## 📜 License
 
 EchoVault is licensed under the [MIT License](LICENSE).
@@ -282,7 +305,6 @@ EchoVault is licensed under the [MIT License](LICENSE).
 Copyright © 2026 Darshan R.
 
 You are free to use, modify, and distribute this software in accordance with the terms of the MIT License.
-
 
 ---
 
