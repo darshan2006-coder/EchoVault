@@ -1,0 +1,29 @@
+# Python
+Backend/venv/
+__pycache__/
+*.py[cod]
+
+# Personal database
+Backend/memories.db
+
+# Node.js
+Frontend/node_modules/
+Frontend/dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
