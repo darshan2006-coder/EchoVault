@@ -112,7 +112,7 @@ EchoVault/
 │   ├── venv/
 │   ├── main.py
 │   ├── database.py
-│   └── memories.db
+│   └── requirements.txt
 │
 ├── Frontend/
 │   ├── public/
@@ -190,7 +190,7 @@ Activate it on Windows PowerShell:
 Install the dependencies:
 
 ```bash
-pip install fastapi uvicorn requests
+pip install -r requirements.txt
 ```
 
 Start the backend:
